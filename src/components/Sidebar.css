@@ -1,0 +1,44 @@
+.sidebar {
+	flex: 0.3;
+	color: white;
+	background-color: var(--slack-color);
+	border-top: 1px #49274b;
+	max-width: 260px;
+}
+
+.sidebar_header {
+	display: flex;
+	border-bottom: 1px solid #49274b;
+	padding: 13px;
+	padding-bottom: 10px;
+	justify-content: space-between;
+}
+
+.slack_menu {
+	display: flex;
+}
+
+.slack_menu > h2 {
+	font-size: 15px;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+.sidebar_header > .MuiSvgIcon-root {
+	padding: 8px;
+	color: #49274b;
+	font-size: 18px;
+	background-color: white;
+	/* this gives a circle radius for icon */
+	border-radius: 999px;
+}
+.sidebar_browse {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.sidebar > hr {
+	border: 1px solid #49274b;
+	color: gray;
+}
